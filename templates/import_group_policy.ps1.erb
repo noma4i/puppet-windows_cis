@@ -1,0 +1,2 @@
+Set-Location -Path "<%= scope.lookupvar('windows_cis::gp_utils_folder') %>"
+iex "cmd.exe /c lgpo.exe rules_list.txt /log <%= scope.lookupvar('windows_cis::gp_utils_folder') %>\log.txt /error <%= scope.lookupvar('windows_cis::gp_utils_folder') %>\log.txt"

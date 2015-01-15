@@ -1,0 +1,15 @@
+{
+  "name": "noma4i-windows_cis",
+  "version": "0.1.0",
+  "author": "noma4i",
+  "summary": "Implementation of CIS Microsoft Windows Server Benchmark",
+  "license": "Apache 2.0",
+  "source": "https://github.com/noma4i/puppet-windows-hardening",
+  "project_page": "https://github.com/noma4i/puppet-windows-hardening",
+  "issues_url": "https://github.com/noma4i/puppet-windows-hardening/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"joshcooper/powershell","version_requirement":">= 0.0.5"}
+  ]
+}
+
