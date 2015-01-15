@@ -1,4 +1,0 @@
-Computer
-SOFTWARE\Policies\Microsoft\Windows\Backup\Server
-OnlySystemBackup
-DWORD:00000001
