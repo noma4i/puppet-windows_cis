@@ -255,10 +255,4 @@ class windows_cis::auditpol() {
     failure => 'enable'
   }
 
-
-
-  # auditpol { '':
-  #   success => '',
-  #   failure => ''
-  # }
 }

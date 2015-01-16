@@ -1,4 +1,144 @@
 Computer
-SOFTWARE\Policies\Microsoft\Windows\Backup\Server
-OnlySystemBackup
-DWORD:00000000
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+NoDriveTypeAutoRun
+DWORD:255
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\WAU
+Disabled
+DWORD:1
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Ext
+NoFirsttimeprompt
+DWORD:1
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Windows\Sidebar
+TurnOffSidebar
+DWORD:1
+
+Computer
+Software\Microsoft\Windows\CurrentVersion\Policies\Windows\Sidebar
+TurnOffUserInstalledGadgets
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Internet Explorer\LinksBar
+Enabled
+DWORD:0
+
+Computer
+Software\Policies\Microsoft\Internet Explorer\PhishingFilter
+Enabled
+DWORD:2
+
+Computer
+Software\Policies\Microsoft\Internet Explorer\Recovery
+AutoRecover
+DWORD:2
+
+Computer
+Software\Policies\Microsoft\Internet Explorer\Restrictions
+NoCrashDetection
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\SystemCertificates\DPNGRA\Certificates
+*
+CREATEKEY
+
+Computer
+Software\Policies\Microsoft\SystemCertificates\DPNGRA\CRLs
+*
+CREATEKEY
+
+Computer
+Software\Policies\Microsoft\SystemCertificates\DPNGRA\CTLs
+*
+CREATEKEY
+
+Computer
+Software\Policies\Microsoft\SystemCertificates\FVE\Certificates
+*
+CREATEKEY
+
+Computer
+Software\Policies\Microsoft\SystemCertificates\FVE\CRLs
+*
+CREATEKEY
+
+Computer
+Software\Policies\Microsoft\SystemCertificates\FVE\CTLs
+*
+CREATEKEY
+
+Computer
+Software\Policies\Microsoft\Windows\Safer
+*
+CREATEKEY
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+DisablePasswordSaving
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableAutoReconnect
+DWORD:0
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableCam
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableAudioCapture
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+AllowedAudioQualityMode
+DELETE
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableCcm
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableClip
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableCdm
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableLPT
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisablePNPRedir
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fEnableSmartCard
+DWORD:0
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fEnableTimeZoneRedirection
+DWORD:1
+
+Computer
+Software\Policies\Microsoft\Windows NT\Terminal Services
+fDisableCpm
+DWORD:1
