@@ -9,7 +9,8 @@
   "issues_url": "https://github.com/noma4i/puppet-windows-hardening/issues",
   "dependencies": [
     {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
-    {"name":"joshcooper/powershell","version_requirement":">= 0.0.5"}
+    {"name":"joshcooper/powershell","version_requirement":">= 0.0.5"},
+    {"name":"jonono-auditpol","version_requirement":">= 0.1.2"}
   ]
 }
 
