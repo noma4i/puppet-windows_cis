@@ -1,0 +1,3 @@
+secedit /import /cfg "<%= scope.lookupvar('windows_cis::gp_utils_folder') %>\policy.inf" /db "C:\Windows\Temp\policyDB.sdb"
+secedit /configure /db "C:\Windows\Temp\policyDB.sdb"
+iex "cmd.exe /c gpupdate.exe"
