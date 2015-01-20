@@ -18,7 +18,7 @@ class windows_cis::rules(
       }
     }
     default: {
-      fail("Invalid ensure option!\n")
+      fail('Invalid ensure option!\n')
     }
   }
 }
