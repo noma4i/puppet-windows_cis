@@ -1,15 +1,26 @@
 {
   "name": "noma4i-windows_cis",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "noma4i",
   "summary": "Implementation of CIS Microsoft Windows Server Benchmark",
   "license": "Apache-2.0",
   "source": "https://github.com/noma4i/puppet-windows_cis",
   "project_page": "https://github.com/noma4i/puppet-windows_cis",
   "issues_url": "https://github.com/noma4i/puppet-windows_cis/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": [
+        "Server 2008",
+        "Server 2008 R2",
+        "Server 2012",
+        "Server 2012 R2"
+      ]
+    }
+  ],
   "dependencies": [
-    {"name":"joshcooper/powershell","version_requirement":">= 0.0.5"},
-    {"name":"jonono-auditpol","version_requirement":">= 0.1.2"}
+    {"name":"joshcooper/powershell","version_requirement":">= 0.0.5 <5.0.0"},
+    {"name":"jonono-auditpol","version_requirement":">= 0.1.2 <5.0.0"}
   ]
 }
 
