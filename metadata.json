@@ -1,6 +1,6 @@
 {
   "name": "noma4i-windows_cis",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "noma4i",
   "summary": "Implementation of CIS Microsoft Windows Server Benchmark",
   "license": "Apache-2.0",
