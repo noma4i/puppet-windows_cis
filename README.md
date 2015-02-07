@@ -4,6 +4,8 @@
 
 Puppet module which is able *TRULY* apply CIS rules. It can apply security templates and registry-based policy.
 
+Hardening is made using CIS Benchmark for ALL Scored rules against **_Standalone Windows Server_**
+
 ## Usage
 ```puppet
     class { 'windows_cis::rules':
