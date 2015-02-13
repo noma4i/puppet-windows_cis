@@ -143,7 +143,3 @@ Software\Policies\Microsoft\Windows NT\Terminal Services
 fDisableCpm
 DWORD:1
 
-Computer
-Software\Policies\Microsoft\Windows\Installer
-DisableMSI
-DWORD:2
