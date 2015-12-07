@@ -39,11 +39,11 @@ class windows_cis::auditpol() {
     success => 'enable',
     failure => 'enable'
   }
-  # CCE-23955-8
-  auditpol { 'Security Group Management':
-    success => 'enable',
-    failure => 'enable'
-  }
+ # CCE-23955-8
+ # auditpol { 'Security Group Management':
+ #    success => 'enable',
+ #   failure => 'enable'
+ #  }
   # CCE-25123-1
   auditpol { 'User Account Management':
     success => 'enable',
