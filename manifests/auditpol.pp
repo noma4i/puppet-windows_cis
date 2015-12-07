@@ -34,11 +34,11 @@ class windows_cis::auditpol() {
     success => 'disable',
     failure => 'disable'
   }
-  # CCE-24588-6
-  auditpol { 'Other Account Management Events':
-    success => 'enable',
-    failure => 'enable'
-  }
+ # CCE-24588-6
+ #  auditpol { 'Other Account Management Events':
+ #    success => 'enable',
+ #    failure => 'enable'
+ #  }
  # CCE-23955-8
  # auditpol { 'Security Group Management':
  #    success => 'enable',
